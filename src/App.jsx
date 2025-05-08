@@ -15,6 +15,7 @@ function App() {
      <Route path="/home" element={<Pages.HomePage />}/>
      <Route path="/about" element={<Pages.AboutPage />} />
      <Route path="/vans" element={<Pages.VansPage />} />
+     <Route path="/vans/:id" element={<Pages.VanDetail />} />
     </Routes>
     </>
   )

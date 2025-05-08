@@ -1,12 +1,7 @@
 import { createServer, Model } from "miragejs"
 
-// if (window.server) {
-//     console.log("Mirage server")
-//     return
-// }
 
 createServer({
-    
     models: {
         vans: Model,
     },
@@ -22,6 +17,7 @@ createServer({
 
     routes() {
         this.namespace = "api"
+        this.logging = false
 
         this.get("/vans", (schema, request) => {
             return schema.vans.all()
@@ -33,4 +29,3 @@ createServer({
         })
     }
 })
-console.log("Mirage server initialized.");
