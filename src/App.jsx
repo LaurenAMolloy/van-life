@@ -13,6 +13,7 @@ function App() {
       {/* localhost:5173/ */}
      <Route path="/" element={<Pages.HomePage />}/>
      <Route path="/home" element={<Pages.HomePage />}/>
+     <Route path="/host" element={<Pages.HostPage />} />
      <Route path="/about" element={<Pages.AboutPage />} />
      <Route path="/vans" element={<Pages.VansPage />} />
      <Route path="/vans/:id" element={<Pages.VanDetail />} />

@@ -59,7 +59,7 @@ body {
 
 /*** HOME PAGE ***/
 .home-container {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), url("./assets/images/home-hero.png") no-repeat center center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), url("/src/assets/home-hero.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -137,6 +137,7 @@ body {
   background-color: #161616;
   color: white;
   border-radius: 10px;
+  padding: 1rem;
 }
 
 /*** VAN PAGES ***/
