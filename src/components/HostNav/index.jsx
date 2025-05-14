@@ -13,7 +13,7 @@ export default function HostNav() {
     <nav className="host-nav">
         <ul className="host-nav-links">
             <li><NavLink 
-             to="/host" 
+             to="." 
              end
              className="host-nav-link"
              style={({isActive}) => isActive ? activeStyles : null }
@@ -21,26 +21,27 @@ export default function HostNav() {
             </li>
 
             <li><NavLink 
-             to="/host/income" 
+             to="income" 
              className="host-nav-link"
              style={({isActive}) => isActive ? activeStyles : null }
              >Income</NavLink>
             </li>
 
             <li><NavLink 
-             to="/host/listedvans" 
+             to="vans" 
              className="host-nav-link"
              style={({isActive}) => isActive ? activeStyles : null }
              >Vans</NavLink>
             </li>
 
             <li><NavLink
-             to="/host/reviews" 
+             to="reviews" 
              className="host-nav-link"
              style={({isActive}) => isActive ? activeStyles : null } >Reviews</NavLink>
             </li>
         </ul>
     </nav>
+    
     </>
   )
 }
